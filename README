@@ -2,3 +2,14 @@ Game Controller Emulation Server
 
 This server servers browser pages that allow for the emulations of
 game pads on the local machine that is running the server.
+
+
+INSTALLATION
+
+first download and install vJoy from http://vjoystick.sourceforge.net/site/index.php/download-a-install/download
+
+then, download the SDK from https://github.com/shauleiz/vJoy/tree/master/SDK
+
+copy the lib/vJoyInterface.dll file into the root of the pyvjoy module folder (lib/amd64/vJoyInterface.dll if you are using 64-bit Python)
+
+pip install flask
